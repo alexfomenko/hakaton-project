@@ -1,0 +1,85 @@
+.bonuses{
+  &__wrap{
+    width: 80%;
+  }
+  &__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+  &__diagram {
+
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 36px;
+    width: 80%;
+    overflow-x: scroll;
+    &--wrap{
+      position: relative;
+      margin: 0 auto;
+      width: 130%;
+      height: 100%;
+    }
+  }
+  &__col{
+    height: 200px;
+    width: 30px;
+    background-color: #1d6bb2;
+    display: inline-block;
+    border-radius: 5px;
+    margin:  0 4.3%;
+    header{
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #ea3a5a;
+      padding: 5px;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: bold;
+      &::before{
+        width: 0;
+        border-top: 14px solid #ea3a5a;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        display: block;
+        content: "";
+        position: absolute;
+        bottom:-10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+  }
+}
+.col-2012{
+  position: relative;
+  height: 60%;
+}
+.col-2013{
+  height: 51%;
+
+}
+.col-2014{
+  height: 70%;
+}
+.col-2015{
+  height: 53%;
+}
+.col-2016{
+  height: 80%;
+}
+.col-2017{
+  height: 66%;
+}
+.col-2018{
+  height: 40%;
+}
+.col-2019{
+  height: 75%;
+}
+.col-2020{
+  height: 60%;
+}

@@ -1,0 +1,46 @@
+@@include('../templates/head.html')
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../sass/core/_reset.scss">
+	<link rel="stylesheet" href="../css/_profile.css">
+</head>
+<body>
+	<aside></aside> <!--сюда подлючаем Тимофея -->
+<main>
+    <header></header><!--тут у нас хедер-->
+    <div class="content">
+		<div class="profile-background">
+			<div class="profile-icon"></div>
+		</div>
+		<div class="profile-info">
+			<nav class="profile-info-menu">
+				<div>
+					<p>Контакти</p>
+				</div>
+				<div><p>Адреса</p></div>
+				<div><p>Налаштування</p></div>
+			</nav>
+		</div>
+		<div class="profile-menu-hover">
+			<p>Телефон</p>
+			<li>
+				<i class="profile-icon-mobile"></i>
+				<input type="text">
+				<p>Мобільний</p>
+			</li>
+			<li></li>
+			<li></li>
+		</div>
+	</div> <!--тут блок с контентом-->
+    <footer></footer> <!--тут футер-->
+</main>
+
+@@include('../templates/body-close.html')
+<!--текст просто для теста-->
+</body>
+</html>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
