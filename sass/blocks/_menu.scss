@@ -37,7 +37,7 @@
 			float: left;
 		}
 		.sub-menu {
-			display: block;
+			display: none;
 			padding-top: 20px;
 			padding-bottom: 30px;
 			margin-left: 15px;
@@ -99,4 +99,7 @@
 		    content: "";
 		    clear: both;
 		    display: table;
+		}
+		.menu-item-name:hover > .sub-menu {
+			display: block;
 		}
