@@ -1,3 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
 .profile-background {
-	
+	background-image: url('../images/blocks/res/forest_header.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 40%;
+	padding: 0;/* 
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center; */
+}
+ .profile-icon {
+ 	display: block;
+ 	margin:0 auto;
+ 	width: 140px;
+ 	border-radius: 100px;
+ }
+.profile-ipn > p {
+	color: #1a2235;
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.profile-ipn > div {
+	display: block;
+}
+.profile-ipn > div > span {
+	color: #939497;
+	padding: 5px;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28px;
+}
+.profile-info {
+ 	margin-top: 10px;
+}
+.profile-info-menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 3px 0px;
+	width: 100%;
+	box-shadow: 1px 0 0 #eeeeee, 0 -1px 0 #eeeeee, 0 1px 0 #eeeeee;
+	background-color: #ffffff;color: #1a2235;
+}
+.profile-info-menu > div {
+	display: flex;
+	flex: 1;
+	border: 1px solid lightgray;
+}
+.profile-info-menu > div > p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin: 15px 11px 7px;
+}
+.profile-info-menu > div:active {
+	border-bottom: 3px solid green;
+}
+.profile-menu-hover {
+	list-style-type: none;
+
+}
+.profile-menu-hover > p {
+	color: #1a2235;
+	margin-left: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.profile-menu-hover > li > p {
+	color: #939497;
+	margin-left: 12px;
+	font-family: 'Roboto', sans-serif;
+}
+.profile-menu-hover > li > img {
+	width: 21px;
+	height: auto;
 }
