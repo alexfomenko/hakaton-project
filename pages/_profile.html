@@ -1,10 +1,14 @@
-
-	<aside></aside> <!--сюда подлючаем Тимофея -->
-<main>
-    <header></header><!--тут у нас хедер-->
+@@include('../templates/head.html')
     <div class="content">
 		<div class="profile-background">
-			<div class="profile-icon"></div>
+			<img src="../images/blocks/chat/icon-user.svg" alt=""  class="profile-icon">
+		</div>
+		<div class="profile-ipn">
+			<p>Іваненко Оксана Ігорівна — ІПН: 1234567890</p>
+			<div>
+				<span>27.03.1980</span>
+				<img src="../images/blocks/general/icon-flag-ua.svg" alt="">
+			</div>
 		</div>
 		<div class="profile-info">
 			<nav class="profile-info-menu">
@@ -18,16 +22,11 @@
 		<div class="profile-menu-hover">
 			<p>Телефон</p>
 			<li>
-				<i class="profile-icon-mobile"></i>
+				<img src="../images/blocks/profile/icon-mobile.svg" alt="">
 				<input type="text">
 				<p>Мобільний</p>
 			</li>
 			<li></li>
 			<li></li>
 		</div>
-	</div> <!--тут блок с контентом-->
-    <footer></footer> <!--тут футер-->
-</main>
-
 @@include('../templates/body-close.html')
-<!--текст просто для теста-->
